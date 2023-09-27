@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+     crossorigin="anonymous">
+ 
+   <link rel="stylesheet" href="css/main.css">
+   <style>
+     /* Add the fade-in animation */
+     .fade-in {
+       opacity: 0;
+       animation: fade-in 5s forwards;
+     }
+
+     .fade-in2 {
+       opacity: 0;
+       animation: fade-in 10s forwards;
+     }
+
+     .fade-in3 {
+       opacity: 0;
+       animation: fade-in 12s forwards;
+     }
+ 
+     /* Add the fade-out animation */
+     .fade-out {
+       opacity: 1;
+       animation: fade-out 1s forwards;
+     }
+ 
+     /* Add the transition on hover */
+     .text-secondary {
+       transition: color 3s ease;
+     }
+     .text-secondary:hover {
+       color: red;
+     }
+ 
+     /* Keyframe animations */
+     @keyframes fade-in {
+       0% {
+         opacity: 0;
+       }
+       100% {
+         opacity: 1;
+       }
+     }
+ 
+     @keyframes fade-out {
+       0% {
+         opacity: 1;
+       }
+       100% {
+         opacity: 0;
+       }
+     }
+   </style>
+   <title>Welcome To My Portfolio</title>
+ </head>
+ 
+ <body id="bg-img">
+   <header>
+     <div class="menu-btn">
+       <div class="btn-line"></div>
+       <div class="btn-line"></div>
+       <div class="btn-line"></div>
+     </div>
+ 
+     <nav class="menu">
+       <div class="menu-branding">
+         <div class="portrait"></div>
+       </div>
+       <ul class="menu-nav">
+         <li class="nav-item current">
+           <a href="index.html" class="nav-link">
+             Home
+           </a>
+         </li>
+         <li class="nav-item">
+           <a href="about.html" class="nav-link">
+             About Me
+           </a>
+        
+         <li class="nav-item">
+           <a href="contact.html" class="nav-link">
+             How To Reach Me
+           </a>
+         </li>
+       </ul>
+     </nav>
+   </header>
+ 
+   <main id="home">
+     <h1 class="lg-heading fade-in">
+       Piyush
+       <span class="text-secondary">Upadhyay</span>
+     </h1>
+     <h2 class="sm-heading fade-in2">
+       Web Developer & Programmer
+     </h2>
+     <div class="icons fade-in3">
+       <a href="https://www.facebook.com/profile.php?id=100069484943147">
+         <i class="fab fa-facebook fa-2x"></i>
+       </a>
+       <a href="https://www.linkedin.com/in/piyush-upadhy-51067b261/">
+         <i class="fab fa-linkedin fa-2x"></i>
+       </a>
+      
+     </div>
+   </main>
+ 
+   <script src="js/main.js"></script>
+ </body>
+ 
+ </html>
+ 
